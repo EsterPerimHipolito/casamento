@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.cabecalho{
+    background-color: #6496CA;
+    position: absolute;
+    width: 1462px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-cabecalho{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 16px;
+    top: 12px;
+    margin-left: 15px;
+}
+
+.cabecalho-menu{
+    color: #F9E2E7;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 750px;
+}
+
+.cabecalho-menu-item{
+    text-decoration: none;
+    color: #F9E2E7;
+}
+.carousel-inner{
+    height: 632px;
+    margin-top: 65px;
+}
+
+
+.seja-bem-vindo{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.sejabem-vindo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #31395E;
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+}
+
+.sejabem-vindo:before{
+    content: "-----";
+    justify-content: center;
+    color: #041E42;
+}
+
+.sejabem-vindo:after{
+    content: "-----";
+    justify-content: center;
+    color: #041E42;
+}
+
+.texto-seja-bem-vindo{
+    display: flex;
+    text-align: center;
+    color: #041E42;
+    font-family: 'Karma';
+    font-size: 41px;
+}
+
+.informacoes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #31395E;
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+}
+.informacoes:before{
+    content: "-----";
+    justify-content: center;
+    color: #041E42;
+}
+.informacoes:after{
+    content: "-----";
+    justify-content: center;
+    color: #041E42;
+}
+.algumas-informacoes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-informacoes{
+    display: flex;
+    text-align: center;
+    color: #041E42;
+    font-family: 'Karma';
+    font-size: 41px;
+}
+
+
+
+
+.foot{
+    background-color: #6496CA;
+    width: 1462px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
