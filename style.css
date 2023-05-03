@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
-
+/*CABECALHO*/
 .cabecalho{
     background-color: #6496CA;
     position: absolute;
@@ -13,7 +12,6 @@
     align-items: center;
     justify-content: space-around;
 }
-
 .img-cabecalho{
     position: absolute;
     width: 200px;
@@ -22,7 +20,6 @@
     top: 12px;
     margin-left: 15px;
 }
-
 .cabecalho-menu{
     color: #F9E2E7;
     display: flex;
@@ -31,18 +28,23 @@
     font-size: 20px;
     align-items: center;
     margin-left: 750px;
+    width: 100%;
 }
-
 .cabecalho-menu-item{
     text-decoration: none;
     color: #F9E2E7;
 }
+.cabecalho-menu-item:hover{
+    color:#041E42;
+}
+
+/*CARROUSEL*/
 .carousel-inner{
     height: 632px;
     margin-top: 65px;
 }
 
-
+/*SEJA BEM VINDO*/
 .seja-bem-vindo{
     margin-top: 60px;
     display: flex;
@@ -56,19 +58,16 @@
     font-family: 'Great Vibes', cursive;
     font-size: 75px;
 }
-
 .sejabem-vindo:before{
     content: "-----";
     justify-content: center;
     color: #041E42;
 }
-
 .sejabem-vindo:after{
     content: "-----";
     justify-content: center;
     color: #041E42;
 }
-
 .texto-seja-bem-vindo{
     display: flex;
     text-align: center;
@@ -77,6 +76,7 @@
     font-size: 38px;
 }
 
+/*INFORMACOES*/
 .informacoes{
     margin-top: 50px;
     display: flex;
@@ -100,7 +100,6 @@
     display: flex;
     justify-content: center;
 }
-
 .texto-informacoes{
     display: flex;
     text-align: center;
@@ -109,9 +108,7 @@
     font-size: 38px;
 }
 
-
-
-
+/*FOOTER*/
 .foot{
     background-color: #6496CA;
     width: 100%;
@@ -122,8 +119,6 @@
     align-items: center;
     justify-content: space-around;
 }
-
-
 .foot{
     display: flex;
     flex-direction: column;
@@ -134,13 +129,11 @@
     color: #041E42;
 
 }
-
 .data{
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     color: #041E42;
 }
-
 .feito-por-nos{
     font-family: 'Great Vibes', cursive;
     font-size: 20px;
