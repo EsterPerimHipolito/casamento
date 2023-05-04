@@ -1,82 +1,266 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="layouts/style.css" />
     <title>Ester e Lucas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    
-</head>
-<body>
-    <header class="cabecalho">
-        <img class="img-cabecalho" src="/img/E & L.png" alt="E & L">
-        <nav class="cabecalho-menu">
-            <a href="#bemvindo" class="cabecalho-menu-item">Bem-vindos</a>
-            <a href="#abaInfo" class="cabecalho-menu-item">Informações</a>
-            <a href="presentes.html" class="cabecalho-menu-item">Presentes</a>
-            <a class="cabecalho-menu-item">Padrinhos</a>
-            <a class="cabecalho-menu-item">Local</a>
-            <a class="cabecalho-menu-item">Contatos</a>
-        </nav>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg cabecalho">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><img src="resources/img/E & L.png" alt="E & L"
+          /></a>
+          <span
+            class="navbar-toggler btn"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </span>
+          <div
+            class="collapse navbar-collapse py-3 flex-row-reverse"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a href="#bemvindo" class="nav-link">Bem-vindos</a>
+              <a href="#abaInfo" class="nav-link">Informações</a>
+              <a href="presentes.html" class="nav-link">Presentes</a>
+              <a class="nav-link">Padrinhos</a>
+              <a class="nav-link">Local</a>
+              <a class="nav-link">Contatos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
-          <div class="carousel-item h-100 active" style="background-image: url(img/escolhido-1.png);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 1.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 2.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 3.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 4.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 5.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 6.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 7.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 8.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 9.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 10.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 11.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 12.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 12.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 13.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 15.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 16.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 17.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-          <div class="carousel-item h-100" style="background-image: url(img/ester\ e\ lucas\ 18.jpeg);background-size:contain; background-repeat: no-repeat; background-position: center;"></div>
-
+          <div
+            class="carousel-item h-100 active"
+            style="
+              background-image: url(resources/img/escolhido-1.png);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 1.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 2.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 3.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 4.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 5.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 6.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 7.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 8.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 9.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 10.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 11.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 12.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 12.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 13.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 15.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 16.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 17.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
+          <div
+            class="carousel-item h-100"
+            style="
+              background-image: url(resources/img/ester\ e\ lucas\ 18.jpeg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+            "
+          ></div>
         </div>
       </div>
 
-          <h2 id="bemvindo" class="sejabem-vindo">Seja Bem-vindos</h2>
-          <div class="seja-bem-vindo">
-            <p class="texto-seja-bem-vindo">Siim, vamos nos casar!!<br>
-              Estamos muito felizes em compartilhar cada detalhe desse dia com você!<br>
-              Por isso decidimos criar esse site com as informações importantes do nosso dia.</p>
-          </div>
+      <h2 id="bemvindo" class="sejabem-vindo">Seja Bem-vindo</h2>
+      <div class="seja-bem-vindo">
+        <p class="texto-seja-bem-vindo">
+          Siim, vamos nos casar!!<br />
+          Estamos muito felizes em compartilhar cada detalhe desse dia com
+          você!<br />
+          Por isso decidimos criar esse site com as informações importantes do
+          nosso dia.
+        </p>
+      </div>
 
-
-          <h2 id="abaInfo" class="informacoes">Algumas informações</h2>
-          <div class="algumas-informacoes">
-            <p class="texto-informacoes">Antes de navegar no site, segue algumas informações.<br>
-              Nosso casamento é dia 10/03/2024.<br>
-              Para os padrinhos, no topo da página terá o seu acesso com informações mais específicas.<br>
-              Para os convidados, terá acesso às outras páginas do site.<br>
-              No caso de dúvidas, estamos à disposição!<br>
-              Ester e Lucas. </p>
-          </div>
-        
+      <h2 id="abaInfo" class="informacoes">Algumas informações</h2>
+      <div class="algumas-informacoes">
+        <p class="texto-informacoes">
+          Antes de navegar no site, segue algumas informações.<br />
+          Nosso casamento é dia 10/03/2024.<br />
+          Para os padrinhos, no topo da página terá o seu acesso com informações
+          mais específicas.<br />
+          Para os convidados, terá acesso às outras páginas do site.<br />
+          No caso de dúvidas, estamos à disposição!<br />
+          Ester e Lucas.
+        </p>
+      </div>
     </main>
 
     <footer>
       <div class="foot">
         <h2 class="ester-lucas">Ester e Lucas</h2>
         <p class="data">10/03/2024</p>
-        <p class="feito-por-nos">Feito com muito carinho pelos noivos (do zero)</p>
+        <p class="feito-por-nos">
+          Feito com muito carinho pelos noivos (do zero)
+        </p>
       </div>
-
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
