@@ -28,69 +28,30 @@
 }
 
 /*SEJA BEM VINDO*/
-.seja-bem-vindo{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-}
-.sejabem-vindo{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+
+
+.row h2{
     color: #31395E;
     font-family: 'Great Vibes', cursive;
-    font-size: 75px;
+    font-size: 60px;
+    margin-top: 15px;
 }
-.sejabem-vindo:before{
-    content: "-----";
-    justify-content: center;
-    color: #041E42;
-}
-.sejabem-vindo:after{
-    content: "-----";
-    justify-content: center;
-    color: #041E42;
-}
-.texto-seja-bem-vindo{
-    display: flex;
-    text-align: center;
-    color: #041E42;
-    font-family: 'Karma';
-    font-size: 38px;
-}
-
-/*INFORMACOES*/
-.informacoes{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+ .row p{
     color: #31395E;
-    font-family: 'Great Vibes', cursive;
-    font-size: 75px;
-}
-.informacoes:before{
-    content: "-----";
-    justify-content: center;
-    color: #041E42;
-}
-.informacoes:after{
-    content: "-----";
-    justify-content: center;
-    color: #041E42;
-}
-.algumas-informacoes{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-}
-.texto-informacoes{
-    display: flex;
-    text-align: center;
-    color: #041E42;
     font-family: 'Karma';
-    font-size: 38px;
-}
+    font-size: 30px;
+ }
 
+.row h2:before{
+    content: "-----";
+    justify-content: center;
+    color: #041E42;
+}
+.row h2:after{
+    content: "-----";
+    justify-content: center;
+    color: #041E42;
+}
 /*FOOTER*/
 .foot{
     background-color: #6496CA;
@@ -122,3 +83,6 @@
     font-size: 20px;
     color: #041E42;
 }
+
+
+
