@@ -42,16 +42,6 @@
     font-size: 30px;
  }
 
-.row h2:before{
-    content: "-----";
-    justify-content: center;
-    color: #041E42;
-}
-.row h2:after{
-    content: "-----";
-    justify-content: center;
-    color: #041E42;
-}
 /*FOOTER*/
 .foot{
     background-color: #6496CA;
