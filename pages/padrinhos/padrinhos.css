@@ -24,6 +24,52 @@
 }
 
 
+
+
+.lojas ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.lojas h3{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 15px;
+    font-size: 70px;
+    color: #31395E;
+}
+
+.lojas li {
+    border-bottom: 1px solid white;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 30px;
+    background-color: #99bad8;
+    text-align: center;
+    font-family: 'Karma';
+}
+
+.lojas a{
+    color: black;
+    text-decoration: none;
+}
+
+.lojas li:hover{
+    background-color: #31395E;
+    transition: 0.8s;
+}
+.row p{
+    color: #31395E;
+    font-family: 'Karma';
+    font-size: 30px;
+}
+
+
+.row img{
+    width: 200px;
+}
+
+
 /*FOOTER*/
 .foot{
     background-color: #6496CA;
